@@ -10,12 +10,11 @@ export default function Project({ params }) {
 
   useEffect(async () => {
     const res = await fetch(
-      `http://localhost:3000/api/projectapi?id=${params.id}`
+      `https://notify-project-completion.vercel.app/projectapi?id=${params.id}`
     );
 
     const data = await res.json();
 
-    console.log("url", data);
     setProjectData(data);
     setLoading(false);
   }, []);
