@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import logo from "../../../../public/furlong_new_logo.png";
 import Image from "next/image";
 
-export default function Home({ params }) {
+export default function Project({ params }) {
   const [projectData, setProjectData] = useState([]);
   const [loading, setLoading] = useState(true);
 
