@@ -104,13 +104,6 @@ export default function Project({ params }) {
               </dd>
             </div>
           </dl>
-          {/* <dl className="">
-            <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-              <p className="mt-1 text-sm leading-6 text-gray-500 sm:col-span-2 sm:mt-0">Should you wish to discuss anything further please make contact.</p>
-              <p className="mt-1 text-sm leading-6 text-gray-500 sm:col-span-2 sm:mt-0">Regards.</p>
-              <p className="mt-1 text-sm leading-6 text-gray-500 sm:col-span-2 sm:mt-0">-Furlong Painting</p>
-            </div>
-          </dl> */}
 
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
             <dt className="text-sm font-medium leading-6 text-gray-900">
